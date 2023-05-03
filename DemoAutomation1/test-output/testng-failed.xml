@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="Testscripts.CreateVender">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="VenderCreation"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- Testscripts.CreateVender -->
+      <class name="Testscripts.LoginToVtiger">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="HomepageValidation"/>
+          <include name="openBrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- Testscripts.LoginToVtiger -->
+      <class name="Testscripts.CreateLead">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="LeadCreation"/>
+          <include name="openBrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- Testscripts.CreateLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

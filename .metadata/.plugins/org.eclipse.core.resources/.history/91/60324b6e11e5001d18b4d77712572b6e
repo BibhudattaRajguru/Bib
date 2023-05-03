@@ -1,0 +1,14 @@
+package testscripts;
+
+import org.testng.annotations.Test;
+
+import automationUtility.BaseClass;
+import objectRepositary.HomePage;
+
+public class VarifyStartAfreetrial extends BaseClass{
+@Test
+public void varifystoryCatagory(){
+	HomePage hp = new HomePage(driver);
+	hp.ClickOnStartAtrial(driver);
+ }
+}

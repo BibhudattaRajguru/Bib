@@ -1,0 +1,9 @@
+package Section2.Practice;
+
+public class checkNumberpositiveNegetive {
+public static void main(String[] args) {
+	int num = -10;
+	String output = num>0 ? "is positive":"is negetive";
+	System.out.println("The number"+ output);
+}
+}

@@ -1,0 +1,11 @@
+package testscripts;
+
+import org.testng.annotations.Test;
+
+import automationUtility.BaseClass;
+
+public class VarifyStartAfreetrial extends BaseClass{
+@Test
+public void varifystoryCatagory(){
+ }
+}

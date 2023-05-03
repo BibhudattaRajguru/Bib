@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename source folder &apos;ABC/ABCabc&apos; to &apos;ABCFramework&apos;&#x0D;&#x0A;- Original project: &apos;ABC&apos;&#x0D;&#x0A;- Original element: &apos;ABC/ABCabc&apos;&#x0D;&#x0A;- Renamed element: &apos;ABCabc&apos;" description="Rename source folder &apos;ABCabc&apos;" id="org.eclipse.jdt.ui.rename.source.folder" input="/ABCabc" name="ABCFramework" stamp="1683053034776" version="1.0"/>
+</session>

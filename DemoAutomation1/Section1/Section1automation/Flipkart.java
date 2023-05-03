@@ -1,0 +1,22 @@
+package Section1automation;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Flipkart {
+	public static void main(String[] args) throws InterruptedException {
+		WebDriverManager.chromedriver().setup();
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://www.flipkart.com/");
+		driver.manage().window().maximize();
+		driver.findElement(By.cssSelector("button[class='_2KpZ6l _2doB4z']")).click();
+		driver.findElement(By.cssSelector("input[class='_3704LK']")).sendKeys("Nokia");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//div[@class='col-12-12 _2oO9oE']/button[@class='L0Z3Pu'] /*")).click();
+		
+	
+	}
+
+}
